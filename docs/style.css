@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(images/rivage-HsTnjCVQ798-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    display: block;
+    justify-items: center;
+
+}
+#h1{
+    display: grid;
+    justify-content: center;
+    margin: 3rem;
+    font-size: 2rem;
+    color: #fff;
+}
+#icon{
+    color: red;
+}
+
+#container1{
+    display: flex;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    gap: 1rem; 
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+#addTask{
+    margin-bottom: 2rem ;
+    padding: 0.5rem  10rem;
+    font: normal 20pt Arial;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    color: #fff; 
+}
+
+.botao{
+    height: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 3px solid #fff;
+    padding: 0.5rem;
+    font-weight: bolder;
+    background-color: #F0DCCE;
+}
+
+
+.botao:hover{
+    opacity: 50%;
+
+}
+#btn-add{
+    margin-top: 0.5rem;
+}
+
+#container2 ul li{
+    display: flex;
+    max-width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-radius: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    word-break: break-all;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#container-btn{
+display: inline-block;
+font-family: 'Courier New', Courier, monospace;
+justify-items: end;
+font-weight: 500;
+}
